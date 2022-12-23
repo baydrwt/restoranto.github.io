@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0%;
+  margin: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/*Home*/
+
+.home {
+  height: 45em;
+  margin: 0%;
+  padding: 0%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+video {
+  position: absolute;
+  display: inline;
+  z-index: -1;
+}
+
+/*Navbar*/
+
+.container-fluid {
+  position: relative;
+  display: inline;
+}
+
+.motto {
+  margin-top: 10em;
+}
+
+.navbar-brand {
+  font-family: "Montotype Corsiva";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+}
+
+.nav-link {
+  font-family: "Garamond";
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  filter: drop-shadow(0px 1px 1px);
+  border-radius: 20px;
+  font-weight: 800;
+}
+
+/*Form*/
+
+.modal-content {
+  background-color: #ececec;
+  border-radius: 20px;
+}
+
+.modal-title h3 {
+  margin-bottom: 0px;
+  padding-left: 135px;
+  font-family: "Castellar";
+}
+
+.modal-title p {
+  margin: 0%;
+  font-size: 0.813rem;
+  padding-left: 130px;
+  font-family: "Chivo Mono";
+}
+
+.modal-body {
+  padding: 5px;
+}
+
+.modal-footer {
+  padding-right: 185px;
+}
+
+.alert {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.form {
+  padding: 10px;
+  margin: 5px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+form {
+  width: 500px;
+  padding: 10px;
+}
+
+.form-control,
+.form-select {
+  background-color: #d9d9d9;
+}
+
+label {
+  display: block;
+  font-size: 0.8em;
+  font-family: "Brygada 1918";
+}
+
+.modal-footer {
+  font-family: "Brygada 1918";
+}
+
+form div {
+  margin-right: 20px;
+}
+
+/*Motto*/
+
+.quotes {
+  font-family: "Garamond";
+  font-weight: bold;
+  font-size: 3em;
+  margin-left: 10%;
+  color: white;
+}
+
+.kutip {
+  font-family: "Montotype Corsiva";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: left;
+  margin-left: 10%;
+  color: white;
+  padding-bottom: 9%;
+}
+
+/*Menu*/
+
+.menu {
+  color: #fff;
+  font-family: "Bell MT";
+  position: relative;
+  height: 65.625em;
+  background-color: black;
+  margin-top: 0%;
+  padding-top: 20px;
+  text-align: center;
+  overflow: auto;
+}
+
+.txtmenu {
+  font-family: "Bell MT";
+  font-size: 2.1875em;
+}
+
+.table-menu {
+  position: relative;
+}
+
+.img {
+  border-radius: 5px;
+  position: relative;
+}
+
+.menu svg {
+  z-index: +999;
+}
+
+.card-drink {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.table {
+  color: white;
+  background-color: rgba(65, 65, 65, 0.4);
+  border-radius: 15px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+/*Our Location*/
+
+.ourLocation {
+  height: 370px;
+  background: #1c1c1c;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.txtLocation {
+  color: #fff;
+  font-family: "Bell MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.25em;
+
+  padding-top: 1%;
+}
+
+.ourLocation h3 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.card-location {
+  position: relative;
+}
+
+.ourLocation p {
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Californian FB";
+  color: #fff;
+  position: relative;
+}
+
+.ourLocation img {
+  border-radius: 8px;
+  position: relative;
+}
+
+/*About US*/
+
+.aboutUs {
+  padding-top: 10px;
+  height: 320px;
+  background: #d9d9d9b2;
+  font-family: "Bodoni MT";
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.aboutUs h3 {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.aboutUs .row {
+  padding: 0px 100px;
+}
+
+.aboutUs h4 {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.aboutUs p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.connectUs .row .col {
+  padding-left: 50%;
+}
+
+.connectUs p {
+  display: inline;
+  padding-left: 6px;
+}
+
+.connectUs .whatsapp svg {
+  margin-left: 10px;
+}
+
+.connectUs .whatsapp p {
+  font-size: 15px;
+  padding-left: 0px;
+}
+
+/*Footer*/
+
+.footer {
+  height: 30px;
+  padding-bottom: 0px;
+  background: #454545;
+  overflow: hidden;
+}
+
+.footer p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 0%;
+}
+
+/*STEAK.HTML*/
+
+body {
+  background-color: #222121;
+  padding: 0%;
+  margin: 0%;
+  position: absolute;
+}
+
+.button-back {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.titles {
+  padding-left: 20px;
+  position: relative;
+}
+
+.titles h1 {
+  font-size: 60px;
+  font-family: "Bell MT";
+  color: #b9b9b9;
+  margin-bottom: 0px;
+}
+
+.description {
+  margin-top: 30px;
+  display: inline-flex;
+}
+
+.cntr-dsc {
+  margin-left: 50px;
+  padding: 0px;
+}
+
+.says-quotes {
+  padding-top: 50px;
+}
+
+.says p {
+  margin-bottom: 0px;
+  font-family: "Buenard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 70px;
+  color: #2b0909;
+  text-align: start;
+  padding-right: 0px;
+}
+
+.chef-quotes {
+  background-color: #2b2b2b;
+  color: #7d7d7d;
+  font-family: "Brawler";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  border-radius: 17px;
+}
+
+.description img {
+  margin: 0px;
+  border: 3px solid #2e2e2e;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+  margin-right: 70px;
+}
+
+.btn-rsrv {
+  width: 255px;
+  margin-right: 0px;
+  margin-top: 50px;
+}
+
+.btn-rsrv1 {
+  width: 255px;
+  height: 58px;
+  padding-top: 50px;
+  margin-left: 540px;
+  padding: 0px;
+  margin-bottom: 45px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h2 {
+  font-family: "Bell MT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 60px;
+  color: #b9b9b9;
+  padding-top: 20px;
+}
+
+.info h3 {
+  font-family: "Brawler";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #7d7d7d;
+}
+
+.cards {
+  margin-top: 20px;
+  display: inline-flex;
+  overflow-x: auto;
+}
+
+.crd1 {
+  padding: 0px;
+}
+
+.card-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: "Bell MT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 60px;
+  color: #aeaeae;
+  margin-top: 191px;
+  margin-left: -1px;
+  margin-right: -1px;
+  padding-left: 20px;
+}
